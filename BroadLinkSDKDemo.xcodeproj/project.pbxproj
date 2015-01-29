@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F318078192DE8D5000643E2 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F318077192DE8D5000643E2 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F9FC0F01935C0B60088C9DA /* BLEasyConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FC0EF1935C0B60088C9DA /* BLEasyConfigViewController.m */; };
+		1F9FC0F21935F2FB0088C9DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9FC0F11935F2FB0088C9DA /* SystemConfiguration.framework */; };
+		1F9FC0F51935FB150088C9DA /* BLRM2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FC0F41935FB150088C9DA /* BLRM2ViewController.m */; };
+		1FA2733019419CC200BD2DFD /* BLA1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2732F19419CC200BD2DFD /* BLA1ViewController.m */; };
+		1FA273331941A3F600BD2DFD /* BLA1TaskListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA273321941A3F600BD2DFD /* BLA1TaskListTableViewController.m */; };
+		2FB1089018E94A4D005B652F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB1088F18E94A4D005B652F /* Foundation.framework */; };
+		2FB1089218E94A4D005B652F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB1089118E94A4D005B652F /* CoreGraphics.framework */; };
+		2FB1089418E94A4D005B652F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB1089318E94A4D005B652F /* UIKit.framework */; };
+		2FB1089A18E94A4D005B652F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FB1089818E94A4D005B652F /* InfoPlist.strings */; };
+		2FB1089C18E94A4D005B652F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1089B18E94A4D005B652F /* main.m */; };
+		2FB108A018E94A4D005B652F /* BLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1089F18E94A4D005B652F /* BLAppDelegate.m */; };
+		2FB108A218E94A4D005B652F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB108A118E94A4D005B652F /* Images.xcassets */; };
+		2FB108C018E9533A005B652F /* BLListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB108BF18E9533A005B652F /* BLListTableViewController.m */; };
+		2FB108C418E953E7005B652F /* libBLNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB108C318E953E7005B652F /* libBLNetwork.a */; };
+		2FB108CB18E95FEA005B652F /* BLDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB108CA18E95FEA005B652F /* BLDeviceInfo.m */; };
+		2FB108CE18E96800005B652F /* BLSP2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB108CD18E96800005B652F /* BLSP2ViewController.m */; };
+		428E9EE31A53810100BCC2AA /* BLNetwork+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 428E9EE21A53810100BCC2AA /* BLNetwork+Addition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F318076192DE8D5000643E2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1F318077192DE8D5000643E2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		1F9FC0EE1935C0B60088C9DA /* BLEasyConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEasyConfigViewController.h; sourceTree = "<group>"; };
+		1F9FC0EF1935C0B60088C9DA /* BLEasyConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEasyConfigViewController.m; sourceTree = "<group>"; };
+		1F9FC0F11935F2FB0088C9DA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1F9FC0F31935FB150088C9DA /* BLRM2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRM2ViewController.h; sourceTree = "<group>"; };
+		1F9FC0F41935FB150088C9DA /* BLRM2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRM2ViewController.m; sourceTree = "<group>"; };
+		1FA2732E19419CC200BD2DFD /* BLA1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLA1ViewController.h; sourceTree = "<group>"; };
+		1FA2732F19419CC200BD2DFD /* BLA1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLA1ViewController.m; sourceTree = "<group>"; };
+		1FA273311941A3F600BD2DFD /* BLA1TaskListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLA1TaskListTableViewController.h; sourceTree = "<group>"; };
+		1FA273321941A3F600BD2DFD /* BLA1TaskListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLA1TaskListTableViewController.m; sourceTree = "<group>"; };
+		2FB1088C18E94A4D005B652F /* BroadLinkSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroadLinkSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB1088F18E94A4D005B652F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FB1089118E94A4D005B652F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FB1089318E94A4D005B652F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FB1089718E94A4D005B652F /* BroadLinkSDKDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BroadLinkSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		2FB1089918E94A4D005B652F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FB1089B18E94A4D005B652F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FB1089D18E94A4D005B652F /* BroadLinkSDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BroadLinkSDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2FB1089E18E94A4D005B652F /* BLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLAppDelegate.h; sourceTree = "<group>"; };
+		2FB1089F18E94A4D005B652F /* BLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAppDelegate.m; sourceTree = "<group>"; };
+		2FB108A118E94A4D005B652F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FB108A818E94A4D005B652F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FB108BE18E9533A005B652F /* BLListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLListTableViewController.h; sourceTree = "<group>"; };
+		2FB108BF18E9533A005B652F /* BLListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLListTableViewController.m; sourceTree = "<group>"; };
+		2FB108C218E953E7005B652F /* BLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNetwork.h; sourceTree = "<group>"; };
+		2FB108C318E953E7005B652F /* libBLNetwork.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLNetwork.a; sourceTree = "<group>"; };
+		2FB108C918E95FEA005B652F /* BLDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDeviceInfo.h; sourceTree = "<group>"; };
+		2FB108CA18E95FEA005B652F /* BLDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDeviceInfo.m; sourceTree = "<group>"; };
+		2FB108CC18E96800005B652F /* BLSP2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSP2ViewController.h; sourceTree = "<group>"; };
+		2FB108CD18E96800005B652F /* BLSP2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSP2ViewController.m; sourceTree = "<group>"; };
+		428E9EE11A53810100BCC2AA /* BLNetwork+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLNetwork+Addition.h"; sourceTree = "<group>"; };
+		428E9EE21A53810100BCC2AA /* BLNetwork+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLNetwork+Addition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB1088918E94A4D005B652F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9FC0F21935F2FB0088C9DA /* SystemConfiguration.framework in Frameworks */,
+				2FB108C418E953E7005B652F /* libBLNetwork.a in Frameworks */,
+				2FB1089218E94A4D005B652F /* CoreGraphics.framework in Frameworks */,
+				2FB1089418E94A4D005B652F /* UIKit.framework in Frameworks */,
+				2FB1089018E94A4D005B652F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F318075192DE8D5000643E2 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F318076192DE8D5000643E2 /* JSONKit.h */,
+				1F318077192DE8D5000643E2 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		2FB1088318E94A4D005B652F = {
+			isa = PBXGroup;
+			children = (
+				2FB1089518E94A4D005B652F /* BroadLinkSDKDemo */,
+				2FB1088E18E94A4D005B652F /* Frameworks */,
+				2FB1088D18E94A4D005B652F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB1088D18E94A4D005B652F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB1088C18E94A4D005B652F /* BroadLinkSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB1088E18E94A4D005B652F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F9FC0F11935F2FB0088C9DA /* SystemConfiguration.framework */,
+				2FB1088F18E94A4D005B652F /* Foundation.framework */,
+				2FB1089118E94A4D005B652F /* CoreGraphics.framework */,
+				2FB1089318E94A4D005B652F /* UIKit.framework */,
+				2FB108A818E94A4D005B652F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FB1089518E94A4D005B652F /* BroadLinkSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FB108C518E9588C005B652F /* 3rd */,
+				2FB108C118E953E7005B652F /* lib */,
+				2FB1089E18E94A4D005B652F /* BLAppDelegate.h */,
+				2FB1089F18E94A4D005B652F /* BLAppDelegate.m */,
+				2FB108A118E94A4D005B652F /* Images.xcassets */,
+				2FB1089618E94A4D005B652F /* Supporting Files */,
+				2FB108BE18E9533A005B652F /* BLListTableViewController.h */,
+				2FB108BF18E9533A005B652F /* BLListTableViewController.m */,
+				2FB108C918E95FEA005B652F /* BLDeviceInfo.h */,
+				2FB108CA18E95FEA005B652F /* BLDeviceInfo.m */,
+				2FB108CC18E96800005B652F /* BLSP2ViewController.h */,
+				2FB108CD18E96800005B652F /* BLSP2ViewController.m */,
+				1F9FC0EE1935C0B60088C9DA /* BLEasyConfigViewController.h */,
+				1F9FC0EF1935C0B60088C9DA /* BLEasyConfigViewController.m */,
+				1F9FC0F31935FB150088C9DA /* BLRM2ViewController.h */,
+				1F9FC0F41935FB150088C9DA /* BLRM2ViewController.m */,
+				1FA2732E19419CC200BD2DFD /* BLA1ViewController.h */,
+				1FA2732F19419CC200BD2DFD /* BLA1ViewController.m */,
+				1FA273311941A3F600BD2DFD /* BLA1TaskListTableViewController.h */,
+				1FA273321941A3F600BD2DFD /* BLA1TaskListTableViewController.m */,
+			);
+			path = BroadLinkSDKDemo;
+			sourceTree = "<group>";
+		};
+		2FB1089618E94A4D005B652F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FB1089718E94A4D005B652F /* BroadLinkSDKDemo-Info.plist */,
+				2FB1089818E94A4D005B652F /* InfoPlist.strings */,
+				2FB1089B18E94A4D005B652F /* main.m */,
+				2FB1089D18E94A4D005B652F /* BroadLinkSDKDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FB108C118E953E7005B652F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2FB108C218E953E7005B652F /* BLNetwork.h */,
+				2FB108C318E953E7005B652F /* libBLNetwork.a */,
+				428E9EE11A53810100BCC2AA /* BLNetwork+Addition.h */,
+				428E9EE21A53810100BCC2AA /* BLNetwork+Addition.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2FB108C518E9588C005B652F /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				1F318075192DE8D5000643E2 /* JSONKit */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB1088B18E94A4D005B652F /* BroadLinkSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB108B818E94A4D005B652F /* Build configuration list for PBXNativeTarget "BroadLinkSDKDemo" */;
+			buildPhases = (
+				2FB1088818E94A4D005B652F /* Sources */,
+				2FB1088918E94A4D005B652F /* Frameworks */,
+				2FB1088A18E94A4D005B652F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroadLinkSDKDemo;
+			productName = BroadLinkSDKDemo;
+			productReference = 2FB1088C18E94A4D005B652F /* BroadLinkSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB1088418E94A4D005B652F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BroadLink;
+			};
+			buildConfigurationList = 2FB1088718E94A4D005B652F /* Build configuration list for PBXProject "BroadLinkSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FB1088318E94A4D005B652F;
+			productRefGroup = 2FB1088D18E94A4D005B652F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB1088B18E94A4D005B652F /* BroadLinkSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB1088A18E94A4D005B652F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB1089A18E94A4D005B652F /* InfoPlist.strings in Resources */,
+				2FB108A218E94A4D005B652F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB1088818E94A4D005B652F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB108CB18E95FEA005B652F /* BLDeviceInfo.m in Sources */,
+				428E9EE31A53810100BCC2AA /* BLNetwork+Addition.m in Sources */,
+				2FB108A018E94A4D005B652F /* BLAppDelegate.m in Sources */,
+				1FA273331941A3F600BD2DFD /* BLA1TaskListTableViewController.m in Sources */,
+				1F318078192DE8D5000643E2 /* JSONKit.m in Sources */,
+				2FB108CE18E96800005B652F /* BLSP2ViewController.m in Sources */,
+				1FA2733019419CC200BD2DFD /* BLA1ViewController.m in Sources */,
+				1F9FC0F01935C0B60088C9DA /* BLEasyConfigViewController.m in Sources */,
+				2FB1089C18E94A4D005B652F /* main.m in Sources */,
+				1F9FC0F51935FB150088C9DA /* BLRM2ViewController.m in Sources */,
+				2FB108C018E9533A005B652F /* BLListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FB1089818E94A4D005B652F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB1089918E94A4D005B652F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FB108B618E94A4D005B652F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FB108B718E94A4D005B652F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FB108B918E94A4D005B652F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BroadLinkSDKDemo/BroadLinkSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "BroadLinkSDKDemo/BroadLinkSDKDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BroadLinkSDKDemo/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FB108BA18E94A4D005B652F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BroadLinkSDKDemo/BroadLinkSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "BroadLinkSDKDemo/BroadLinkSDKDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BroadLinkSDKDemo/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB1088718E94A4D005B652F /* Build configuration list for PBXProject "BroadLinkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB108B618E94A4D005B652F /* Debug */,
+				2FB108B718E94A4D005B652F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB108B818E94A4D005B652F /* Build configuration list for PBXNativeTarget "BroadLinkSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB108B918E94A4D005B652F /* Debug */,
+				2FB108BA18E94A4D005B652F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FB1088418E94A4D005B652F /* Project object */;
+}
